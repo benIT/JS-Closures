@@ -20,7 +20,8 @@ doSomething('doSomething in anonymous function that is attributed to variable');
 
 //JavaScript allows to define a function whithout giving it a name wrapping the function between () :
 ( function () {alert('doSomething in an anonymous function defined between (). This one is just defined and not runned');} ) ;
-//note that the function is just define.
+//note that the function is just defined.
 
 //You need to add extra () to execute the function () :
 ( function (message) {alert(message);} ) ('doSomething in an anonymous function defined between () and run with extra ()'); 
+//note that the function is defined and executed thanks to extra ().
